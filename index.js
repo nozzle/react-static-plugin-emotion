@@ -1,7 +1,9 @@
-import { renderStylesToString } from "emotion-server";
+const { renderStylesToString } = require("emotion-server");
 
-export default {
-  // Tap into the HTML export and use emotion-server
-  // to critically inline the styles into the html string
-  tapHtml: html => renderStylesToString(html)
+module.exports = {
+  default: {
+    // Tap into the HTML export and use emotion-server
+    // to critically inline the styles into the html string
+    tapHtml: html => renderStylesToString(html)
+  }
 };
