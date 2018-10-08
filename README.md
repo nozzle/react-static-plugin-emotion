@@ -1,4 +1,6 @@
-# react-static-plugin-emotion
+# THIS PLUGIN HAS BEEN MOVED TO THE [REACT-STATIC MONOREPO](https://github.com/nozzle/react-static) AND IS ACTIVELY MAINTAINED THERE
+
+## react-static-plugin-emotion
 
 A [React-Static](https://react-static.js.org) plugin that adds CSS-in-JS/SSR support for [emotion &amp; react-emotion](https://github.com/emotion-js/emotion)
 
